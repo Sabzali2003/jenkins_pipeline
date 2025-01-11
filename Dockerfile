@@ -5,7 +5,7 @@ FROM nginx:latest
 # COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # Copy static website files to Nginx's default document root
-COPY . /html /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
